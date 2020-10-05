@@ -561,7 +561,7 @@
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
 
-  <script>
+  <!-- <script>
     function resize_testimonial(){
       var alturas = [];
       $('.carousel-item').each(function(){
@@ -583,7 +583,7 @@
     $(window).bind("resizeEnd", function() {
       resize_testimonial();
     });
-  </script>
+  </script> -->
 
 
 
