@@ -175,7 +175,6 @@
     items: 1
   });
 
-  // <script>
   //   function resize_testimonial(){
   //     var alturas = [];
   //     $('.carousel-item').each(function(){
@@ -197,7 +196,6 @@
   //   $(window).bind("resizeEnd", function() {
   //     resize_testimonial();
   //   });
-  // </script>
 
 
 })(jQuery);
