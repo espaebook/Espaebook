@@ -361,7 +361,7 @@
             </a>
           </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <a href="./assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details">
+              <a href="./assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
                 <div class="portfolio-wrap">
                   <img src="./assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
                   <div class="portfolio-info" >
@@ -560,33 +560,6 @@
 
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
-
-  <!-- <script>
-    function resize_testimonial(){
-      var alturas = [];
-      $('.carousel-item').each(function(){
-        var altura = $(this).height();
-        alturas.push(altura);
-      });
-      
-      var maximo = Math.max.apply(null, alturas);
-      $('.carousel-inner').css('height', maximo + "px");
-    }
-    resize_testimonial();
-
-    $(window).resize(function() {
-    if(this.resizeTO) clearTimeout(this.resizeTO);
-    this.resizeTO = setTimeout(function() {
-        $(this).trigger('resizeEnd');
-    }, 500);
-    });
-    $(window).bind("resizeEnd", function() {
-      resize_testimonial();
-    });
-  </script> -->
-
-
-
 
 </body>
 

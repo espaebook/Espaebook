@@ -175,4 +175,29 @@
     items: 1
   });
 
+  // <script>
+  //   function resize_testimonial(){
+  //     var alturas = [];
+  //     $('.carousel-item').each(function(){
+  //       var altura = $(this).height();
+  //       alturas.push(altura);
+  //     });
+      
+  //     var maximo = Math.max.apply(null, alturas);
+  //     $('.carousel-inner').css('height', maximo + "px");
+  //   }
+  //   resize_testimonial();
+
+  //   $(window).resize(function() {
+  //   if(this.resizeTO) clearTimeout(this.resizeTO);
+  //   this.resizeTO = setTimeout(function() {
+  //       $(this).trigger('resizeEnd');
+  //   }, 500);
+  //   });
+  //   $(window).bind("resizeEnd", function() {
+  //     resize_testimonial();
+  //   });
+  // </script>
+
+
 })(jQuery);
