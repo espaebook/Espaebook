@@ -94,6 +94,10 @@ return [
     'Famous-phrase' => 'Technology is nothing. The important thing is that you have faith in people, that they are basically good and intelligent, and if you give them tools, they will do wonderful things with them.',
     
     'Famous-phrase-2' => '- Steve Jobs',
+    'Project' => 'Project information',
+    'espaebook-details' => 'Cree Espaebook inicialmente como un curriculum-portafolio para mostrar a posibles clientes mis habilidades, las tecnologías que manejos y los trabajos realizados. Una pagina pensada como punto de contacto luego de ver mis destrezas.',
+    'energiaartesanal-details' => 'Project information',
+    
 
 
 

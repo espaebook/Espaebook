@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Espaebook</title>
+  <title>Enrique Sanchez</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -21,7 +21,6 @@
   <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <!-- <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
   <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
 
 
@@ -71,9 +70,8 @@
 
       <p>{{ trans('welcome.I') }}<span class="typed" data-typed-items="{{ trans('welcome.Designer') }}, {{ trans('welcome.Developer') }}, Freelancer"></span></p>
       <div class="social-links">
-        {{-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>--}}
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/espaebook" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://t.me/espaebook" class="telegram"><i class="bx bxl-telegram"></i></a>
         <a href="https://www.linkedin.com/in/enrique-sanchez-espaebook" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/espaebook" class="github"><i class="bx bxl-github"></i></a>
       </div>
@@ -95,27 +93,29 @@
           <div class="col-lg-4">
             <img src="./assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>{{ trans('welcome.Profession') }}</h3>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Birthday') }}:</strong> 12/Feb/1997</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Phone') }}:</strong> (+58) 412 9802854</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.City') }}:</strong> Venezuela, caracas</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Age') }}:</strong> 23</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Degree') }}:</strong></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Freelance') }}:</strong> Available</li>
-                </ul>
-              </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content d-flex align-items-center">
+            <div>
+              <h3>{{ trans('welcome.Profession') }}</h3>
+              <p style="text-align: justify;">
+                {{ trans('welcome.Profession-perfil-2') }}
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Birthday') }}:</strong> 12/Feb/1997</li>
+                    <!-- <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Phone') }}:</strong> (+58) 412 9802854</li> -->
+                    <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.City') }}:</strong> Venezuela, caracas</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <!-- <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Age') }}:</strong> 23</li> -->
+                    <!-- <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Degree') }}:</strong></li> -->
+                    <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Freelance') }}:</strong> Available</li>
+                  </ul>
+                </div>
+              </div>              
             </div>
-            <p style="text-align: justify;">
-              {{ trans('welcome.Profession-perfil-2') }}
-            </p>
           </div>
         </div>
 
@@ -269,13 +269,13 @@
               <h4>{{ trans('welcome.Education-1') }}</h4>
               <h5>2015 - {{ trans('welcome.Present') }}</h5>
               <p><em>{{ trans('welcome.Institute') }}</em></p>
-              <p>{{ trans('welcome.Institute-text') }}</p>
+              <p id="pad">{{ trans('welcome.Institute-text') }}</p>
             </div>
             <div class="resume-item">
               <h4>{{ trans('welcome.Education-2') }}</h4>
               <h5>2009 - 2013</h5>
               <p><em>{{ trans('welcome.Institute-2') }}</em></p>
-              <p>{{ trans('welcome.Institute-text-2') }}</p>
+              <p id="pad">{{ trans('welcome.Institute-text-2') }}</p>
             </div>
           </div>
           <div class="col-lg-6">
@@ -361,21 +361,21 @@
             </a>
           </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <a href="./assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
+            <a href="{{ url('/energia-artesanal-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
                 <div class="portfolio-wrap">
                   <img src="./assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
                   <div class="portfolio-info" >
-                      <h4>Energia Artesanal</h4> 
+                      <h4>Energia Artesanal</h4>                       
                   </div>
-                </div>
+                </div>                
               </a>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-dev">
-                <a href="./assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
+                <a href="{{ url('/espaebook-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
                   <div class="portfolio-wrap">
-                    <img src="./assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
+                    <img src="./assets/img/portfolio/espaebook-portafolio-5.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info" >
-                       <h4>Espaebook code</h4> 
+                       <h4>Espaebook</h4> 
                     </div>
                   </div>
                 </a>
@@ -392,11 +392,11 @@
         <div class="section-title">
           <h2>{{ trans('welcome.Testimonials') }}</h2>
         </div>
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel slide" data-ride="carousel">
 
           <!-- The slideshow -->
           <div class="carousel-inner">
-            <div class="carousel-item active" id="hola">
+            <div class="carousel-item active">
               <div class="testimonial-item">
                 <img src="./assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Frank López</h3>
@@ -480,33 +480,36 @@
         <div class="container">
 
           <div class="row">
-            <div class="col-sm">
-              <div class="info row justify-content-center">
-                <div class="email">
-                  <i class="icofont-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>Enriquehtm@gmail.com</p>
+            <a href="mailto:enriquehtm@gmail.com">
+              <div class="col-sm">
+                <div class="info row justify-content-center">
+                  <div class="phone d-flex align-items-center">
+                    <i class="icofont-envelope"></i>
+                    <h4>Email</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-sm">
-              <div class="info row justify-content-center">
-                <div class="phone">
-                  <i class="icofont-phone"></i>
-                  <h4>{{ trans('welcome.Phone') }}:</h4>
-                  <p>(+58) 412 9802854</p>
+              <a href="https://api.whatsapp.com/send?phone=584129802854&text=Pregunta%20lo%20que%20necesites">
+                <div class="info row justify-content-center">
+                  <div class="phone d-flex align-items-center">
+                    <i class="icofont-whatsapp"></i>
+                    <h4>Whatsapp</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-sm">
-              <div class="info row justify-content-center">
-                <div class="address">
-                  <i class="icofont-google-map"></i>
-                  <h4>{{ trans('welcome.Location') }}:</h4>
-                  <p>Venezuela, caracas</p>
+              <a href="https://t.me/espaebook">
+                <div class="info row justify-content-center">
+                  <div class="phone d-flex align-items-center">
+                    <i class="icofont-telegram"></i>
+                    <h4>Telegram</h4>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </a>
+            </div>            
           </div>
         </div>
       </div>
@@ -532,9 +535,8 @@
       </div>
 
       <div class="social-links">
-        {{-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>--}}
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/espaebook" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://t.me/espaebook" class="telegram"><i class="bx bxl-telegram"></i></a>
         <a href="https://www.linkedin.com/in/enrique-sanchez-espaebook" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/espaebook" class="github"><i class="bx bxl-github"></i></a>      
       </div>
@@ -553,13 +555,14 @@
   <script src="./assets/vendor/counterup/counterup.min.js"></script>
   <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="./assets/vendor/venobox/venobox.min.js"></script>
-  <!-- <script src="./assets/vendor/owl.carousel/owl.carousel.js"></script> -->
   <script src="./assets/vendor/typed.js/typed.min.js"></script>
   <script src="./assets/vendor/aos/aos.js"></script>
 
 
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/carousel.js"></script>
+
 
 </body>
 

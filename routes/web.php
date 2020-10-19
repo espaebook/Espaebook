@@ -17,11 +17,14 @@ Route::get('/', function () {
 });
  
 
-Route::get('portfolio-details', function () {
-    return view('portfolio-details');
-})->name('portfolio-details');
+Route::get('espaebook-details', function () {
+    return view('espaebook-details');
+})->name('espaebook-details');
 
-Route::post('/contact', 'EmailController@contact')->name('contact');
+Route::get('energia-artesanal-details', function () {
+  return view('energia-artesanal-details');
+})->name('energia-artesanal-details');
+
 
 
 Route::get('lang/{lang}', function($lang) {

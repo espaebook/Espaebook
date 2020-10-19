@@ -39,11 +39,11 @@ return [
     'Education' => 'Educación',
     'Education-1' => 'Ingeniero en informática mención redes y telecomunicaciones',
     'Institute' => 'Universidad Nacional Experimental Marítima del Caribe, La Guaira, VE',
-    'Institute-text' => 'Es un profesional sustentado en una formación de alto nivel tecnológico y científico, consciente de su responsabilidad, con sentido ético, autocrítico, proactivo y con capacidad de liderazgo. Será capaz de aplicar las tecnologías electrónicas de control y telecomunicaciones de forma eficaz, para resolver problemas relacionados con la transmisión de información y la manipulación de procesos a distancia además desempeñarse en las en áreas de desarrollo sistemas informáticos como de gestión de tecnologías y de servicios. Podrá desenvolverse profesionalmente en las áreas de informática y en especial en la administración de las tecnologías y desarrollo de software. Su formación le permite gestionar emprendimientos personales, prestar servicios en las áreas de informática.',
+    'Institute-text' => 'Es un profesional de alto nivel tecnológico y científico, consciente de su responsabilidad, con sentido ético, autocrítico, proactivo y con capacidad de liderazgo. Capaz de aplicar las tecnologías y las telecomunicaciones de forma eficaz.',
 
     'Education-2' => 'Bachiller mención ciencias',
     'Institute-2' => 'Unidad Educativa Tricolor, Caracas, VE',
-    'Institute-text-2' => 'El bachiller tiene una formación vinculada en la adquisición de conocimientos, habilidades y destrezas. Relacionadas con el uso de herramientas de comunicación e información, conocimientos específicos de las ciencias básicas, del comportamiento y desarrollo humano que permiten sustentar aquellas de carácter profesional necesarias en el ciclo universitario, además posee una base teórica conceptual disciplinar vinculada con el desarrollo persona y autocrítico.',
+    'Institute-text-2' => 'El bachiller tiene una formación vinculada en la adquisición de conocimientos, habilidades y destrezas. Relacionadas con el uso de herramientas de comunicación e información, conocimientos específicos de las ciencias básicas.',
 
     'Professional-Experience' => 'Experiencia profesional',
 
@@ -53,8 +53,8 @@ return [
     'Professional-Experience-1-C' => 'Búsqueda y corrección de errores en los sistemas existentes.',
     'Professional-Experience-1-D' => 'Creación de propuestas para la optimización y desarrollo de aplicativos web. ',
     'Professional-Experience-2-A' => 'Desarrollé numerosas imágenes para marketing digital.',
-    'Professional-Experience-2-B' => 'Realice la creación de contenido y administrar el sitio web. Basándome y consultado con los clientes sobre el diseño gráfico más adecuado.',
-    'Professional-Experience-2-D' => 'Creé más de 1500 presentaciones y propuestas de diseño para el cliente.',
+    'Professional-Experience-2-B' => 'Creación de contenido y administracion del sitio web. Basándome en las especificaciones del cliente sobre el diseño más adecuado.',
+    'Professional-Experience-2-D' => 'Elaboré más de 1500 presentaciones y propuestas de diseño para el cliente.',
 
 
     'All' => 'Todo',
@@ -82,13 +82,13 @@ return [
 
     'Testimonials' => 'Testimonios',
     'Testimonial-1-A' => 'Analista de seguridad de la información',
-    'Testimonial-1-B' => 'Excelente persona, dedicado en lo que hace y siempre se esfuerza para hacer su trabajo el mejor. Él busca de actualizarse de manera personal y profesional todo el tiempo. Además, mira los problemas o situaciones a atender desde distintas perspectivas lo cual ayuda encontrar soluciones óptimas y eficaces',
-    'Testimonial-2-B' => 'Lo recomiendo por ser una persona responsable y proactiva. Siempre agregué ideas al trabajo con el objetivo de mejorar los resultados esperados y crear un proyecto más orgánico. No se conforma, desde una inversión propia, se actualiza con los temas que enfrenta la actividad que desarrolla',
-    'Testimonial-3-B' => 'Puntual, atento y responsable con las fechas de entrega. Cumple con las virtudes necesarias para enfrentar los proyectos y desafíos que le sean asignados, ya que se encuentra en constante capacitación para así desempeñar proyectos de mayor extensión y compromiso, puesto que trabaja para que sus resultados tengan un alto diseño y calidad',
+    'Testimonial-1-B' => 'Dedicado en lo que hace y siempre se esfuerza para hacer su trabajo el mejor. Además, mira los problemas o situaciones a atender desde distintas perspectivas lo cual ayuda encontrar soluciones óptimas y eficaces.',
+    'Testimonial-2-B' => 'Lo recomiendo por ser una persona responsable y proactiva. Siempre agregué ideas con el objetivo de mejorar los resultados y crear un proyecto más orgánico. No se conforma, siempre se actualiza con los temas que enfrenta.',
+    'Testimonial-3-B' => 'Puntual, atento y responsable con las fechas de entrega. Cumple con las virtudes necesarias para enfrentar los proyectos y desafíos que le sean asignados, trabaja para que sus resultados tengan un alto diseño y calidad',
     'Testimonial-4-A' => 'matemático',
-    'Testimonial-4-B' => 'Fui docente de Enrique en su etapa de formación, durante esta etapa demostró ser una persona educada, responsable, proactiva, con capacidad de asumir desafíos y proyectos. Con sólidos conocimientos. Lo recomiendo ampliamente a cualquier empresa para desempeñarse como ingeniero informático',
+    'Testimonial-4-B' => 'Es una persona educada, responsable, proactiva, con capacidad de asumir desafíos y proyectos. Con sólidos conocimientos. Lo recomiendo ampliamente a cualquier empresa para desempeñarse como ingeniero informático',
     'Testimonial-5-A' => 'Administrador',
-    'Testimonial-5-B' => 'Es una persona responsable, tiene ingenio para resolver problemas, además de calmado y mantienes a todos con buen ánimo, se preocupa mucho por el servicio que brinda, ya que está en constante comunicación y contacto. Al pendiente de cualquier eventualidad, es muy dedicado y seria',
+    'Testimonial-5-B' => 'Es una persona responsable, tiene ingenio para resolver problemas, se preocupa mucho por el servicio que brinda, ya que está en constante comunicación y contacto. Pendiente de cualquier eventualidad.',
 
     
 
@@ -97,7 +97,8 @@ return [
 
     'Famous-phrase' => 'La tecnología no es nada. Lo importante es que tengas fe en la gente, que sean básicamente buenas e inteligentes, y si les das herramientas, harán cosas maravillosas con ellas',
     
-    'Famous-phrase-2' => '- Steve Jobs',    
+    'Famous-phrase-2' => '- Steve Jobs', 
+    'Project' => 'Información del proyecto',   
 
 
    
