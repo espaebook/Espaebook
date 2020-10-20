@@ -392,7 +392,7 @@
         <div class="section-title">
           <h2>{{ trans('welcome.Testimonials') }}</h2>
         </div>
-        <div class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
           <!-- The slideshow -->
           <div class="carousel-inner">
