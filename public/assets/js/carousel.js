@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-  interval: 4000,
+  interval: 5000,
   pause: "false"
 });
 
