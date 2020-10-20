@@ -112,7 +112,7 @@
                   <ul>
                     <!-- <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Age') }}:</strong> 23</li> -->
                     <!-- <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Degree') }}:</strong></li> -->
-                    <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Freelance') }}:</strong> Available</li>
+                    <li><i class="icofont-rounded-right"></i> <strong>{{ trans('welcome.Freelance') }}:</strong> {{ trans('welcome.Available') }}</li>
                   </ul>
                 </div>
               </div>              
