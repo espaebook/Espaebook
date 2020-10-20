@@ -71,7 +71,7 @@
 
       <p>{{ trans('welcome.I') }}<span class="typed" data-typed-items="{{ trans('welcome.Designer') }}, {{ trans('welcome.Developer') }}, Freelancer"></span></p>
       <div class="social-links">
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/espaebook" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/espaebook" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/in/enrique-sanchez-espaebook" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/espaebook" class="github"><i class="bx bxl-github"></i></a>
@@ -536,7 +536,7 @@
       </div>
 
       <div class="social-links">
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/espaebook" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/espaebook" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/in/enrique-sanchez-espaebook" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/espaebook" class="github"><i class="bx bxl-github"></i></a>      
