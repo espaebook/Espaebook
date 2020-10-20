@@ -95,9 +95,6 @@ return [
     
     'Famous-phrase-2' => '- Steve Jobs',
     'Project' => 'Project information',
-    'espaebook-details' => 'Cree Espaebook inicialmente como un curriculum-portafolio para mostrar a posibles clientes mis habilidades, las tecnologías que manejos y los trabajos realizados. Una pagina pensada como punto de contacto luego de ver mis destrezas.',
-    'energiaartesanal-details' => 'Project information',
-    
 
 
 

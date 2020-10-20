@@ -90,15 +90,15 @@ return [
     'Testimonial-5-A' => 'Administrador',
     'Testimonial-5-B' => 'Es una persona responsable, tiene ingenio para resolver problemas, se preocupa mucho por el servicio que brinda, ya que está en constante comunicación y contacto. Pendiente de cualquier eventualidad.',
 
-    
-
-
-
-
     'Famous-phrase' => 'La tecnología no es nada. Lo importante es que tengas fe en la gente, que sean básicamente buenas e inteligentes, y si les das herramientas, harán cosas maravillosas con ellas',
-    
+
     'Famous-phrase-2' => '- Steve Jobs', 
+
     'Project' => 'Información del proyecto',   
+    'espaebook-details' => 'Cree Espaebook inicialmente como un curriculum-portafolio para mostrar a posibles clientes mis habilidades, las tecnologías que manejos y los trabajos realizados. Una pagina pensada como punto de contacto luego de ver mis destrezas.',
+    'energiaartesanal-details' => 'Para energía artesanal se me solicito la creación de un ecommerce con un diseño web fresco, bajo los entandares que demandaba la solicitante, en la cual quería algo sencillo y minimalista en su tienda online. Enfocado en sus servicios. ',
+    
+
 
 
    
