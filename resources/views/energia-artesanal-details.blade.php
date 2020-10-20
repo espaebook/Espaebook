@@ -58,7 +58,7 @@
           <div class="col-lg-4 portfolio-info">
             <h3>{{ trans('welcome.Project') }}</h3>
             <ul>
-              <li><strong>Category</strong>: {{ trans('welcome.Developing') }}</li>
+              <li><strong>Category</strong>: {{ trans('welcome.Web') }}</li>
               <li><strong>Project URL</strong>: <a href="https://energiaartesanal.com" target="_blank">https://energiaartesanal.com</a></li>
             </ul>
 
