@@ -8,7 +8,7 @@
   <title>Enrique Sanchez</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-  <meta http-equiv="cache-control" content="no-cache" />
+  <!-- <meta http-equiv="cache-control" content="no-cache" /> -->
 
   <!-- Favicons -->
   <link href="./assets/img/favicon2.png" rel="icon">
