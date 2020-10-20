@@ -2,10 +2,6 @@
 <html lang="es">
 
 <head>
-  <!-- Template Main JS File -->
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/carousel.js"></script>
-
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -89,6 +85,9 @@
   <script src="./assets/vendor/typed.js/typed.min.js"></script>
   <script src="./assets/vendor/aos/aos.js"></script>
 
+  <!-- Template Main JS File -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/carousel.js"></script>
 
 
 </body>
