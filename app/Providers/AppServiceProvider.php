@@ -28,12 +28,6 @@ class AppServiceProvider extends ServiceProvider
                 return base_path('public_html');
         });
     }
-    public function boot(UrlGenerator $url)
-    {
-        if (config('app.production')) {
-            $url->forceScheme('https');
-        }
-    }
 }
 
 
