@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <!-- <meta http-equiv="cache-control" content="no-cache" /> -->
-  
+
   <!-- Favicons -->
   <link href="./assets/img/favicon.png" rel="icon">
   <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -32,25 +32,45 @@
     <!-- ======= Portfolio Details ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container" data-aos="fade-up">
-        <div class="row">
+      <div class="row">
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Espaebook</h2>
+            <h2 class="portfolio-title">Energia Artesanal</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-1.jpg" alt="First slide">
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-0.jpg" alt="First slide">
+                </div>              
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-2.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-3.jpg" alt="Third slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-4.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-5.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-6.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/nxt/ntx-details-7.jpg" alt="Third slide">
                 </div>
               </div>
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
               </ol>
             </div>            
           </div>
@@ -58,15 +78,14 @@
           <div class="col-lg-4 portfolio-info">
             <h3>{{ trans('welcome.Project') }}</h3>
             <ul>
-              <li><strong>Category</strong>: {{ trans('welcome.Developing') }}</li>
-              <li><strong>Project URL</strong>: <a href="https://github.com/espaebook/Espaebook" target="_blank">github.com/espaebook/Espaebook</a></li>
+              <li><strong>Category</strong>: {{ trans('welcome.Web') }}</li>
+              <p>{{ trans('welcome.nxt-link') }}</p>
             </ul>
 
             <p>
-              {{ trans('welcome.espaebook-details') }}            
+              {{ trans('welcome.nxt-details') }}
             </p>
           </div>
-
         </div>
       </div>
     </section><!-- End Portfolio Details -->
@@ -80,7 +99,6 @@
   <script src="./assets/vendor/jquery/jquery.min.js"></script>
   <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="./assets/vendor/php-email-form/validate.js"></script>
   <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="./assets/vendor/counterup/counterup.min.js"></script>
   <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

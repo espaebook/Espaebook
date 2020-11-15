@@ -38,13 +38,13 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="./assets/img/portfolio/energiaartesanal-details-1.jpg" alt="First slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/energia/energiaartesanal-details-1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/energiaartesanal-details-2.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/energia/energiaartesanal-details-2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/energiaartesanal-details-3.jpg" alt="Third slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/energia/energiaartesanal-details-3.jpg" alt="Third slide">
                 </div>
               </div>
               <ol class="carousel-indicators">
@@ -59,7 +59,7 @@
             <h3>{{ trans('welcome.Project') }}</h3>
             <ul>
               <li><strong>Category</strong>: {{ trans('welcome.Web') }}</li>
-              <li><strong>Project URL</strong>: <a href="https://energiaartesanal.com" target="_blank">https://energiaartesanal.com</a></li>
+              <li><strong>Project URL</strong>: <a href="https://energiaartesanal.com" target="_blank">energiaartesanal.com</a></li>
             </ul>
 
             <p>

@@ -34,23 +34,39 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Espaebook</h2>
+            <h2 class="portfolio-title">The barzaar</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-1.jpg" alt="First slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-2.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/img/portfolio/espaebook/espaebook-details-3.jpg" alt="Third slide">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-4.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-5.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/portfolio/thebarzaar/thebarzaar-6.jpg" alt="Second slide">
                 </div>
               </div>
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
               </ol>
             </div>            
           </div>
@@ -59,11 +75,11 @@
             <h3>{{ trans('welcome.Project') }}</h3>
             <ul>
               <li><strong>Category</strong>: {{ trans('welcome.Developing') }}</li>
-              <li><strong>Project URL</strong>: <a href="https://github.com/espaebook/Espaebook" target="_blank">github.com/espaebook/Espaebook</a></li>
+              <li><strong>Project URL</strong>: <a href="https://thebarzaar.com/" target="_blank">thebarzaar.com</a></li>
             </ul>
 
             <p>
-              {{ trans('welcome.espaebook-details') }}            
+              {{ trans('welcome.thebarzaar-details') }}            
             </p>
           </div>
 

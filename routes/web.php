@@ -25,6 +25,13 @@ Route::get('energia-artesanal-details', function () {
   return view('energia-artesanal-details');
 })->name('energia-artesanal-details');
 
+Route::get('nxt-details', function () {
+  return view('nxt-details');
+})->name('nxt-details');
+
+Route::get('thebarzaar-details', function () {
+  return view('thebarzaar-details');
+})->name('thebarzaar-details');
 
 
 Route::get('lang/{lang}', function($lang) {

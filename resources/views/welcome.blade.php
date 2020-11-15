@@ -330,20 +330,20 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="./assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
+            <a href="./assets/img/portfolio/loro-cian.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
               <div class="portfolio-wrap">
-                <img src="./assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/portfolio/loro-cian.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <!-- <h4>App 1</h4> -->
+                  <h4>Loro cian</h4>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="./assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">            
+            <a href="./assets/img/portfolio/dezorros.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">            
               <div class="portfolio-wrap">
-                <img src="./assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/portfolio/dezorros.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <!-- <h4>app 2</h4> -->
                 </div>
@@ -352,37 +352,56 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="./assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
+            <a href="./assets/img/portfolio/animalia.jpg" data-gall="portfolioDetailsGallery" class="venobox" title="">
               <div class="portfolio-wrap">
-                <img src="./assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
+                <img src="./assets/img/portfolio/animalia.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
                 <div class="portfolio-info" >
                   <!-- <h4>App 3</h4> -->
                 </div>
               </div>
             </a>
           </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <a href="{{ url('/energia-artesanal-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
-                <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
-                  <div class="portfolio-info" >
-                      <h4>Energia Artesanal</h4>                       
-                  </div>
-                </div>                
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-dev">
-                <a href="{{ url('/espaebook-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
-                  <div class="portfolio-wrap">
-                    <img src="./assets/img/portfolio/espaebook-portafolio-5.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info" >
-                       <h4>Espaebook</h4> 
-                    </div>
-                  </div>
-                </a>
-            </div>            
+              <div class="portfolio-wrap">
+                <img src="./assets/img/portfolio/energia/energiaartesanal.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
+                <div class="portfolio-info" >
+                  <h4>Energia Artesanal</h4>                       
+                </div>
+              </div>                
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dev">
+            <a href="{{ url('/espaebook-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
+              <div class="portfolio-wrap">
+                <img src="./assets/img/portfolio/espaebook/espaebook-portafolio-5.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info" >
+                  <h4>Espaebook</h4> 
+                </div>
+              </div>
+            </a>
+          </div> 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="{{ url('/nxt-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
+              <div class="portfolio-wrap">
+                <img src="./assets/img/portfolio/nxt/nxt-portafolio-6.jpg" class="img-fluid" alt="" href="{{ url('/portfolio-details') }}">
+                <div class="portfolio-info" >
+                  <h4>NXT</h4>                       
+                </div>
+              </div>                
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dev">
+            <a href="{{ url('/thebarzaar-details') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox">
+              <div class="portfolio-wrap">
+                <img src="./assets/img/portfolio/thebarzaar/thebarzaar.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info" >
+                  <h4>The barzaar</h4> 
+                </div>
+              </div>
+            </a>
+          </div>                                
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
 

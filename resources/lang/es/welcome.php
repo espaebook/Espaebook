@@ -96,7 +96,11 @@ return [
 
     'Project' => 'Información del proyecto',   
     'espaebook-details' => 'Cree Espaebook inicialmente como un curriculum-portafolio para mostrar a posibles clientes mis habilidades, las tecnologías que manejos y los trabajos realizados. Una pagina pensada como punto de contacto luego de ver mis destrezas.',
-    'energiaartesanal-details' => 'Para energía artesanal se me solicito la creación de un ecommerce con un diseño web fresco, bajo los entandares que demandaba la solicitante, en la cual quería algo sencillo y minimalista en su tienda online. Enfocado en sus servicios. ',
+    'energiaartesanal-details' => 'Para energía artesanal se me solicito la creación de un e-commerce en wix con un diseño web fresco, bajo los entandares que demandaba la solicitante, en la cual quería algo sencillo y minimalista en su tienda online. Enfocado en sus servicios. ',
+    'nxt-details' => 'Para NXT se me solicito la construcción de un maquetado web del cual el cliente ya tenía el diseño y quería llevarlo a la realidad, con todas las interacciones y acciones que el había establecido en su modelo base',
+    'nxt-link' => 'El cliente aún no ha publicado la página',
+    'thebarzaar-details' => 'Para The barzaar se me solicito la construcción de un e-commerce en shopify, el cual debía tener un diseño muy llamativo y una estética de alta calidad, que impactara tanto al usuario como al cliente.',
+    
     
 
 
