@@ -299,7 +299,7 @@
               <ul>
                 <li>{{ trans('welcome.Professional-Experience-2-A') }}</li>
                 <li>{{ trans('welcome.Professional-Experience-2-B') }}</li>
-                <li>{{ trans('welcome.Professional-Experience-2-D') }}</li>
+                <li>{{ trans('welcome.Professional-Experience-2-C') }}</li>
               </ul>
             </div>
           </div>

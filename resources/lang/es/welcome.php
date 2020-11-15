@@ -52,10 +52,10 @@ return [
     'Professional-Experience-1-B' => 'Desarrollo de aplicativos web con el framework codeigniter',
     'Professional-Experience-1-C' => 'Búsqueda y corrección de errores en los sistemas existentes.',
     'Professional-Experience-1-D' => 'Creación de propuestas para la optimización y desarrollo de aplicativos web. ',
+    
     'Professional-Experience-2-A' => 'Desarrollé numerosas imágenes para marketing digital.',
     'Professional-Experience-2-B' => 'Creación de contenido y administracion del sitio web. Basándome en las especificaciones del cliente sobre el diseño más adecuado.',
-    'Professional-Experience-2-D' => 'Elaboré más de 1500 presentaciones y propuestas de diseño para el cliente.',
-
+    'Professional-Experience-2-C' => 'Elaboré más de 1500 presentaciones y propuestas de diseño para el cliente.',
 
     'All' => 'Todo',
     'Design' => 'Diseño',
@@ -63,35 +63,21 @@ return [
     'Web' => 'Diseño web',
 
 
-
-
-    'Location' => 'Ubicación',
-    'Phone' => 'Teléfono',
-    'Your-Name' => 'Tu nombre',
-    'Your-Name-2' => 'Por favor ingrese al menos 4 caracteres',
-    'Your-Email' => 'Tu Email',
-    'Your-Email-2' => 'Por favor introduzca una dirección de correo electrónico válida',
-    'Subject' => 'Asunto',
-    'Subject-2' => 'Por favor ingrese al menos 8 caracteres de asunto',
-    'Message' => 'Mensaje',
-    'Message-2' => 'Por favor escribe algo para nosotros',
-    'Loading' => 'Enviando',
-    'Error' => 'Tu mensaje no se ha enviado intenta de nuevo',
-    'Sent' => 'Tu mensaje ha sido enviado. ¡Gracias!',
-    'Send-Message' => 'Enviar mensaje',
-
     'Testimonials' => 'Testimonios',
     'Testimonial-1-A' => 'Analista de seguridad de la información',
     'Testimonial-1-B' => 'Dedicado en lo que hace y siempre se esfuerza para hacer su trabajo el mejor. Además, mira los problemas o situaciones a atender desde distintas perspectivas lo cual ayuda encontrar soluciones óptimas y eficaces.',
+    
     'Testimonial-2-B' => 'Lo recomiendo por ser una persona responsable y proactiva. Siempre agregué ideas con el objetivo de mejorar los resultados y crear un proyecto más orgánico. No se conforma, siempre se actualiza con los temas que enfrenta.',
+    
     'Testimonial-3-B' => 'Puntual, atento y responsable con las fechas de entrega. Cumple con las virtudes necesarias para enfrentar los proyectos y desafíos que le sean asignados, trabaja para que sus resultados tengan un alto diseño y calidad',
+    
     'Testimonial-4-A' => 'matemático',
     'Testimonial-4-B' => 'Es una persona educada, responsable, proactiva, con capacidad de asumir desafíos y proyectos. Con sólidos conocimientos. Lo recomiendo ampliamente a cualquier empresa para desempeñarse como ingeniero informático',
+    
     'Testimonial-5-A' => 'Administrador',
     'Testimonial-5-B' => 'Es una persona responsable, tiene ingenio para resolver problemas, se preocupa mucho por el servicio que brinda, ya que está en constante comunicación y contacto. Pendiente de cualquier eventualidad.',
 
     'Famous-phrase' => 'La tecnología no es nada. Lo importante es que tengas fe en la gente, que sean básicamente buenas e inteligentes, y si les das herramientas, harán cosas maravillosas con ellas',
-
     'Famous-phrase-2' => '- Steve Jobs', 
 
     'Project' => 'Información del proyecto',   
